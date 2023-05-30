@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 28, 2023, 9:25:06 PM
+    Author     : Admin
+*/
+
+.login-btn{
+    -fx-background-color: #263F73;
+    -fx-background-radius: 20;
+}
+.login-btn{
+    -fx-background-color:   #263F73;
+    -fx-cursor: hand;
+}
+.login-btn:hover {
+    -fx-opacity: 0.9;
+}
+.login-btn:pressed{
+    -fx-opacity: 1.1;
+}
+.close{
+    -fx-cursor: hand;
+}
+.close:hover {
+    -fx-opacity: 0.9;
+}
+.close:pressed{
+    -fx-opacity: 1.1;
+}
+.hyperlink:pressed{
+    -fx-opacity: 1.1;
+}
+.hyperlink:hover{
+    -fx-opacity: 0.9;
+    -fx-text-fill: #000;
+}
+.hyperlink{
+  -fx-cursor: hand;  
+  -fx-border-color: transparent;
+  -fx-font-size:14px;
+  -fx-text-fill:#369eda;
+}
+.textfield:focus{
+    -fx-background-color: #efefef;
+    -fx-border-width: 0px 0px 1.8px 0px;
+}
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 8px;
+    -fx-border-color: #000;
+    -fx-border-width: 0px 0px .8px 0px;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 13px;
+    -fx-border-radius:8px;
+      
+}
+.admindashboard{
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+    
+}
